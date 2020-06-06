@@ -10,10 +10,6 @@ curl_setopt($ch,CURLOPT_POSTFIELDS,"cmd=_notify-validate&" . http_build_query($_
 $response = curl_exec($sch);
 echo ("$response");
 
-
-
-echo '$response';
-echo ($response);
 curl_close($sch);
 
 
